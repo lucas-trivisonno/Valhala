@@ -1,6 +1,7 @@
 import React from "react";
 import Cartwidget from "./Cartwidget";
 
+
 const Header = () => {
 return(
     <div className=" fondo-naranja">
@@ -20,8 +21,9 @@ return(
           </li>
           </ul>
       </div>
+      <Cartwidget />
     </div>
-    <Cartwidget />
+    
   </nav>
   
   </div>

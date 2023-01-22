@@ -24,3 +24,34 @@ body{
   width: 60%;
   
 }
+.carro{
+  
+  list-style: none;
+}
+.carro:hover{
+  border-radius: 100vh;
+  background-color: gold;
+}
+.iconos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+a{
+  font-size: 50px;
+  color: #ebecec;
+  padding: 13px;
+}
+.redes{
+  list-style: none;
+  
+}
+.redes:hover{
+  background-color: gold;
+  border-radius: 50%;
+}
+a:hover{
+  color: black;
+}
