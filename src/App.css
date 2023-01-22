@@ -3,22 +3,24 @@
   padding: 0;
 }
 body{
-  background-color: #c9c7c7;
+  background-color: #c4c1c1;
 }
 .fondo-naranja{
-  background-color: rgb(252, 112, 12);
-  height: 66px;
+  background-color: #fc700c;
+  height: 100px;
   width: 100%;
 }
+
 .tipografia{
-  color: rgb(235, 236, 236);
+  color: #ebecec;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 10px;
+  
 }
 .carousel{
-  display: flex;
-  justify-content: center;
-  width: 51%;
   
-  
+  width: 60%;
   
 }

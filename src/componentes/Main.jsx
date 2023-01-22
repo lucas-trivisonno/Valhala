@@ -2,7 +2,9 @@ import React from "react";
 
 const Main = () => {
 return(
-    <div className="conatiner"><div id="carouselExample" className="carousel slide carousel ">
+    <div className="container d-flex justify-content-center">
+      
+      <div id="carouselExample" className="carousel slide carousel ">
     <div className="carousel-inner ">
       <div className="carousel-item active">
         <img src="https://s3-eu-central-1.amazonaws.com/www.burgerking.com.ar.v2/wp-media-folder-bk-argentina//home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/5/Armado-whopper-doble-con-queso.png" className="d-block w-100" alt="..."/>
@@ -22,7 +24,13 @@ return(
       <span className="carousel-control-next-icon" aria-hidden="true"></span>
       <span className="visually-hidden">Next</span>
     </button>
-  </div></div>
+  </div>
+  
+  
+</div>
+
+  
+  
 )
 }
 
