@@ -16,14 +16,14 @@ const Itemdetail = ({item}) => {
     return(
          <div className="detail">
             <img className="img-detail" src={item.imagen} alt={item.nombre} />
-            <div className="info">
+            <div className="">
             <h2>{item.nombre} </h2>
             <p>{item.descripcion}</p>
             <h3>${item.precio}</h3>
             {counter === 0 ? (
                     <Itemcount stock={5} initial={1} onAdd={onAdd} />
                 ) : (
-                    <Link to="/cart" className="btn btn-danger">Ir al carrito</Link>
+                    <Link to="/cart" className="btn btn-warning">Ir al carrito</Link>
                 )}
             </div>
 

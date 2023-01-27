@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Item = ({item}) =>{
     return(
-         <div className="card fondo-amarillo">
+         <div className="card borde">
          <Link to={"/producto/"+ item.id}><img src={"images/"+item.imagen} className="card-img-top" alt={item.nombre} />
          </Link>
      <div className="card-body">

@@ -15,12 +15,12 @@ const Cart = () => {
                     <img className='img-carrito' src={producto.imagen} alt={producto.nombre} />
                     <b>{producto.cantidad} x ${producto.precio}</b>
                    <b> ${producto.cantidad * producto.precio}</b>
-                    <button onClick={() => deleteOne(producto.id)} className="btn btn-danger">
+                    <button onClick={() => deleteOne(producto.id)} className="btn btn-warning">
                         Eliminar
                     </button><br />
-                    <button onClick={deleteAll} className="btn btn-danger">Eliminar todo</button>
+                    <button onClick={deleteAll} className="btn btn-warning">Eliminar todo</button>
                     <Link to={"/checkout"} title="Finalizar Compra">
-             <button className="btn btn-danger">Finalizar Compra</button>
+             <button className="btn btn-warning">Finalizar Compra</button>
              </Link>
                 </div>
             ))}

@@ -11,6 +11,7 @@ body{
   width: 100%;
 }
 
+
 .tipografia{
   color: #ebecec;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -62,4 +63,33 @@ a:hover{
   
   top: 350px;
   
+}
+.borde{
+  border-color: #fc700c;
+  
+}
+.size{
+  position: relative;
+  left: 300px;
+  width: 700px;
+  height: 100%;
+  
+}
+.detail{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 5px;
+  padding-bottom: 10px;
+
+}
+.img-detail{
+  width: 20%;
+  padding-right: 5px;
+}
+.img-carrito{
+  width: 180px;
+}
+.detalle{
+  font-family: fantasy;
 }
