@@ -3,7 +3,7 @@
   padding: 0;
 }
 body{
-  background-color: #c4c1c1;
+  background-color: #c1c1c4;
 }
 .fondo-naranja{
   background-color: #fc700c;
@@ -21,7 +21,8 @@ body{
 }
 .carousel{
   
-  width: 60%;
+  width: 500px;
+  
   
 }
 .carro{
@@ -54,4 +55,11 @@ a{
 }
 a:hover{
   color: black;
+}
+.logo{
+  position: absolute;
+  left: 700px;
+  
+  top: 350px;
+  
 }
