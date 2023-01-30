@@ -8,7 +8,7 @@ import Header from './componentes/Header';
 import Main from './componentes/Main';
 import Footer from './componentes/Footer';
 import Comtacto from './componentes/Contacto';
-
+import Checkout from './componentes/Checkout';
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
     <Route exact path='/producto/:id' element={<Itemdetailcontainer/>}/>
     <Route path={"/cart"} element={<Cart />} />
     <Route exact path='/contacto' element={<Comtacto/>}/>
-    
+    <Route path={"/checkout"} element={<Checkout />} />
 
     </Routes>
     <Footer />
